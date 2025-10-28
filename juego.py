@@ -3,6 +3,8 @@ import random
 puntaje = 0
 intentos = 3
 
+print("bienvenido a el juego")
+
 while intentos > 0:
     numero = random.randint(1,10)
     adi = int(input("Cual es el numero entre 1 y 10:"))
